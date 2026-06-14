@@ -6,8 +6,10 @@ authors = [
     {name = "Pierre Garat",email = "garat@et.esiea.fr"}
 ]
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.13,<3.15"
 dependencies = [
+    "sqlalchemy (>=2.0.50,<3.0.0)",
+    "py-cord (>=2.8.0,<3.0.0)",
 ]
 
 [tool.poetry]
